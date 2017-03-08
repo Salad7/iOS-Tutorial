@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s5F-Rf-v2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="404" y="490"/>
+            <point key="canvasLocation" x="-148" y="428.63568215892059"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -69,7 +69,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="doneButton" destination="7Jf-Yg-d9h" id="OAd-qL-cFK"/>
                         <outlet property="textField" destination="0qE-zF-cxq" id="igi-u3-ZbP"/>
                     </connections>
                 </viewController>

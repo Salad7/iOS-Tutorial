@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4803D01E6FBEA100B96FCF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4803CF1E6FBEA100B96FCF /* CustomTableViewCell.swift */; };
 		0FA87FB11E6E151A00FEAA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA87FB01E6E151A00FEAA0C /* AppDelegate.swift */; };
 		0FA87FB31E6E151A00FEAA0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA87FB21E6E151A00FEAA0C /* FirstViewController.swift */; };
 		0FA87FB51E6E151A00FEAA0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA87FB41E6E151A00FEAA0C /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4803CF1E6FBEA100B96FCF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		0FA87FAD1E6E151A00FEAA0C /* Tab Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA87FB01E6E151A00FEAA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FA87FB21E6E151A00FEAA0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				0FA87FB91E6E151A00FEAA0C /* Assets.xcassets */,
 				0FA87FBB1E6E151A00FEAA0C /* LaunchScreen.storyboard */,
 				0FA87FBE1E6E151A00FEAA0C /* Info.plist */,
+				0F4803CF1E6FBEA100B96FCF /* CustomTableViewCell.swift */,
 			);
 			path = "Tab Example";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				0FA87FB51E6E151A00FEAA0C /* SecondViewController.swift in Sources */,
 				0FA87FB11E6E151A00FEAA0C /* AppDelegate.swift in Sources */,
+				0F4803D01E6FBEA100B96FCF /* CustomTableViewCell.swift in Sources */,
 				0FA87FB31E6E151A00FEAA0C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				0FA87FC31E6E151A00FEAA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
