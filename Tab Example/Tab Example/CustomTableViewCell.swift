@@ -10,6 +10,11 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var foodTitle: UILabel!
+    @IBOutlet weak var vendorTitle: UILabel!
+    
+    @IBOutlet weak var timeDayTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

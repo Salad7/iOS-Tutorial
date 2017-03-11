@@ -10,7 +10,7 @@ import UIKit
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var listOfNames = ["One","2","5","3","1"]
+    var listOfNames = ["One","2","5","3","1","One","2","5","3","1","One","2","5","3","1"]
     var cellReuseIdentifier = "cell"
     
     @IBOutlet weak var tableView: UITableView!
@@ -27,7 +27,10 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath)
+        var cell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath) as! CustomTableViewCell
+        cell.foodTitle.text = listOfNames[indexPath.row]
+        cell.vendorTitle.text = listOfNames[indexPath.row]
+        cell.timeDayTitle.text = listOfNames[indexPath.row]
         
         return cell
         
@@ -35,7 +38,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 5
+    return 15
     }
     
 
